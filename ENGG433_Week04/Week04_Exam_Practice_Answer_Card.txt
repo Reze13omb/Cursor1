@@ -2,7 +2,7 @@ ENGG433/956  Exam Week 4 Practice  —  fill-in card
 ====================================================
 1  T          11  D
 2  F          12  A
-3  A          13  D
+3  C          13  D
 4  B          14  T
 5  C          15  T
 6  D          16  A
@@ -12,6 +12,7 @@ ENGG433/956  Exam Week 4 Practice  —  fill-in card
 10 B          20  D
 ====================================================
 Workings to remember
+  Q3   C = identification, recording, communication（不是 identification, communication, recording）
   Q5   ΔA = ΔL + ΔOE = -30,000 - 15,000 = -45,000
   Q7   290,000 = 105,000 + 147,000 + R - 420,000 - 28,000  →  R = 486,000
   Q13  780 + 900 - 1,150 = 530 debit

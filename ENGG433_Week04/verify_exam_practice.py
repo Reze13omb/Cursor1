@@ -45,11 +45,12 @@ def main():
 
     # Answer key letters
     answers = {
-        1: "T", 2: "F", 3: "A", 4: "B", 5: "C",
+        1: "T", 2: "F", 3: "C", 4: "B", 5: "C",
         6: "D", 7: "D", 8: "F", 9: "F", 10: "B",
         11: "D", 12: "A", 13: "D", 14: "T", 15: "T",
         16: "A", 17: "B", 18: "D", 19: "B", 20: "D",
     }
+    check("Q3 letter is C", answers[3], "C")
     check("answer-key count", len(answers), 20)
 
     text = "\n".join(lines)

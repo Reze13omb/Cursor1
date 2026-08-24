@@ -1,167 +1,363 @@
-# ENGG433/956 Week 4 Exam Practice — Answer Key
+# ENGG433/956 Week 4 Exam Practice — 逐题详解
 
-填卷答案（先抄这个，再看后面推导）：
+第 3 题已改为 **C**（Weygandt 原卷选项：C = identification, recording, communication）。先前把选项字母写成 A，是看图时把 A/C 的文字对调了；三步顺序本身没有变。
+
+## 填卷答案
 
 | # | 答案 | # | 答案 | # | 答案 | # | 答案 |
 |---|------|---|------|---|------|---|------|
 | 1 | **T** | 6 | **D** | 11 | **D** | 16 | **A** |
 | 2 | **F** | 7 | **D** | 12 | **A** | 17 | **B** |
-| 3 | **A** | 8 | **F** | 13 | **D** | 18 | **D** |
+| 3 | **C** | 8 | **F** | 13 | **D** | 18 | **D** |
 | 4 | **B** | 9 | **F** | 14 | **T** | 19 | **B** |
 | 5 | **C** | 10 | **B** | 15 | **T** | 20 | **D** |
 
-这套卷覆盖第 1–3 章：会计过程与会计恒等式、借记贷记、权责发生制与调整分录。
+---
+
+## 1  T
+
+**题意：** 能用美元和美分计量的交易，才会被记入财务信息系统。
+
+**判断：对。** 这是 **monetary unit assumption（货币计量假设）**。会计只记录能用货币表达的事项。员工士气、产品质量、客户满意度再重要，只要不能可靠地用钱计量，就不入账。
+
+**反例：** “老板今天心情很好”不是交易，也不能量化，不记账。
 
 ---
 
-## 1  T — 货币计量假设（monetary unit assumption）
-
-只有能用货币计量的交易才记入会计信息系统。员工士气、产品质量等不入账。
-
 ## 2  F
 
-会计信息同时服务 **internal users**（经理、老板）和 **external users**（投资人、银行、税务）。不是“只有外部使用者”。
+**题意：** 会计信息只被对企业有财务利益的外部使用者使用。
 
-## 3  A  identification → recording → communication
+**判断：错。** 使用者分两类：
 
-会计过程三步：先识别经济事项，再记账，最后用报表把信息传出去。其他顺序都反了。
+| 类型 | 例子 | 用途 |
+|------|------|------|
+| Internal users | 经理、业主、部门主管 | 定价、预算、是否招人 |
+| External users | 投资人、银行、税务、供应商 | 是否投资、是否放贷、征税 |
 
-## 4  B  relevant
+题目把 internal users 整段漏掉了，所以是 F。
 
-**Relevance** 的定义就是：信息有能力改变决策（capable of making a difference in a decision）。  
-Faithful representation 是另一质量特征（完整、中立、无重大差错），不是这题的定义。
+---
 
-## 5  C  资产减少 $45,000
+## 3  C
 
-会计恒等式：\(\text{Assets} = \text{Liabilities} + \text{Owner's Equity}\)
+**题意：** 会计过程的正确顺序是什么。
+
+原卷选项（Weygandt 标准题库）是：
+
+- A  identification, communication, recording
+- B  recording, communication, identification
+- C  identification, recording, communication
+- D  communication, recording, identification
+
+**答案：C。** 三步不能跳、不能倒：
+
+1. **Identification（识别）** — 这件事是不是会计事项？影响哪些账户？
+2. **Recording（记录）** — 做日记账、过账到分类账。
+3. **Communication（传递）** — 编利润表、资产负债表、现金流量表，把结果交给使用者。
+
+A 把 communication 插到 recording 前面：还没记账就出报表，不可能。B、D 都不是从 identification 开始。
+
+（口诀：先认出、再记下、最后告诉别人。）
+
+---
+
+## 4  B
+
+**题意：** 有能力改变一项决策的财务信息，叫做什么。
+
+**答案：B relevant（相关性）。** 教材定义：information is relevant if it is capable of making a difference in a decision。相关信息通常还有预测价值或反馈价值。
+
+排除：
+
+- A generally accepted — 那是 GAAP 的字面，不是质量特征。
+- C convergent — 不是会计质量特征。
+- D faithfully representative — 忠实表述（完整、中立、无重大差错），是另一项基本质量特征，定义不是“能改变决策”。
+
+---
+
+## 5  C
+
+**题意：** 某期间负债减少 $30,000，业主权益减少 $15,000，资产怎么变。
+
+会计恒等式时刻成立：
+
+\[
+\text{Assets} = \text{Liabilities} + \text{Owner's Equity}
+\]
+
+两边同时变动：
 
 \[
 \Delta A = \Delta L + \Delta OE = (-30{,}000) + (-15{,}000) = -45{,}000
 \]
 
-负债和业主权益都下降，资产必须同方向下降同样合计金额。
+**答案：C 资产减少 $45,000。**
 
-## 6  D  owner's equity will decrease
+不要选 A（只加了一个数）或 D（方向反了）。权益下降也会拉低资产，不是互相抵消成 $15,000。
 
-已购 supplies 被耗用：
+---
 
-- Asset（Supplies）↓
-- Expense（Supplies Expense）↑ → Owner's Equity ↓
+## 6  D
 
-不是负债增加，也不是权益增加。
+**题意：** 已经买来的物料在经营中被用掉，会发生什么。
+
+耗用 supplies 的分录：
+
+```
+Dr  Supplies Expense
+    Cr  Supplies
+```
+
+- 资产 Supplies ↓
+- 费用 ↑ → 费用减少净利润 → **Owner's Equity ↓**
+
+**答案：D。**
+
+A 资产增加：反了，是在减少物料。  
+B 负债增加：这笔不涉及应付。  
+C 权益增加：费用会减少权益，不是增加。
+
+---
 
 ## 7  D  $486,000
 
-业主权益变动公式：
+**题意：** Letty 期初权益 $105,000，本年追加投资 $147,000，费用 $420,000，提款 $28,000，期末权益 $290,000。求本年收入。
+
+业主权益滚动公式：
 
 \[
-\text{Ending OE} = \text{Beg. OE} + \text{Investments} + \text{Revenue} - \text{Expenses} - \text{Drawings}
+\text{期末 OE} = \text{期初 OE} + \text{追加投资} + \text{收入} - \text{费用} - \text{提款}
 \]
+
+代入：
 
 \[
 \begin{aligned}
 290{,}000 &= 105{,}000 + 147{,}000 + R - 420{,}000 - 28{,}000 \\
-290{,}000 &= -196{,}000 + R \\
+290{,}000 &= 252{,}000 + R - 448{,}000 \\
+290{,}000 &= R - 196{,}000 \\
 R &= 486{,}000
 \end{aligned}
 \]
 
 验算：\(105{,}000 + 147{,}000 + 486{,}000 - 420{,}000 - 28{,}000 = 290{,}000\)。
 
-不要选 $458,000$（漏加 drawings）或 $633,000$（把费用符号搞反）。
+**答案：D $486,000。**
+
+易错：
+
+- $458,000 = 漏加 drawings（少加回 28,000）
+- $633,000 = 把费用当成加项
+- $605,000 = 漏减投资或符号混乱
+
+---
 
 ## 8  F
 
-Debit **不是**永远表示增加：
+**题意：** 借记某个账户，永远表示该账户增加。
 
-| 增加记 Debit | 增加记 Credit |
-|--------------|---------------|
-| Asset, Expense, Drawings | Liability, Owner's Capital, Revenue |
+**判断：错。** Debit 只表示“记在账户左边”，增还是减取决于账户类型：
 
-给负债/收入/资本记 Debit 是在减少它们。
+| 账户 | 增加 | 减少 | 正常余额 |
+|------|------|------|----------|
+| Asset | Debit | Credit | Debit |
+| Expense | Debit | Credit | Debit |
+| Drawings | Debit | Credit | Debit |
+| Liability | Credit | Debit | Credit |
+| Capital | Credit | Debit | Credit |
+| Revenue | Credit | Debit | Credit |
+
+给应付账款记 Debit，是在**减少**负债（例如付款）。所以 “debit always means increase” 是 F。
+
+---
 
 ## 9  F
 
-**Chart of accounts** 只是账户名称 + 编号清单，用来给日记账和分类账统一编号。  
-真正存放每个账户发生额的是 **ledger（分类账）**，不是 chart of accounts。
+**题意：** Chart of accounts 是会计系统里一种特殊的分类账。
 
-## 10  B  the debit side
+**判断：错。**
 
-T 账户：左边 = debit，右边 = credit。与余额正负、账户名称无关。
+- **Chart of accounts**：账户名称 + 编号的清单（像目录）。
+- **Ledger（分类账）**：每个账户的实际发生额和余额都记在这里。
+- **Journal（日记账）**：按时间顺序记分录，再过账到 ledger。
 
-## 11  D  费用账户出现贷方余额
+Chart of accounts 不是 ledger，只是给账户编号用的表。
 
-正常余额：
+---
 
-| 账户 | 正常余额 |
-|------|----------|
-| Asset / Expense / Drawings | Debit |
-| Liability / Capital / Revenue | Credit |
+## 10  B
 
-A、B、C 都是正常余额。费用正常在借方，出现 **credit balance** 说明记反了。
+**题意：** 账户的左边是什么。
 
-## 12  A  Credit an asset account for $500
+**答案：B the debit side。** 这是定义，与有没有余额、账户叫什么名字无关。右边永远是 credit side。
 
-分录必须借贷平衡 $1,200：
+A blank、C the balance、D a description 都不对：余额可能在左也可能在右；摘要写在分录说明栏，不是“左边”的定义。
+
+---
+
+## 11  D
+
+**题意：** 熟悉正常余额，能帮你发现哪一项记账错误。
+
+把每个选项对照正常余额：
+
+| 选项 | 账户 | 出现的余额 | 是否正常 |
+|------|------|------------|----------|
+| A | Liability | Credit | 正常 |
+| B | Owner's Drawings | Debit | 正常 |
+| C | Revenue | Credit | 正常 |
+| D | Expense | Credit | **不正常** |
+
+费用增加记 Debit，正常余额在借方。费用账户出现贷方余额，多半是借贷记反了。
+
+**答案：D。**
+
+---
+
+## 12  A
+
+**题意：** Madrid 买物料 $1,200，付现 $500，余款 30 天内付。分录已经有：借记资产 $1,200、贷记负债 $700。怎样补完。
+
+完整分录：
 
 ```
-Dr  Supplies (asset)           1,200
-    Cr  Accounts Payable (liability)      700
-    Cr  Cash (asset)                      500
+Dr  Supplies (asset)                 1,200
+    Cr  Accounts Payable (liability)          700
+    Cr  Cash (asset)                          500
 ```
 
-题目已经给出借资产 1,200、贷负债 700，缺的就是 **贷记另一个资产（Cash）500**。  
-不要贷 Capital（这不是业主投资），也不要再贷一笔负债。
+借贷必须平衡：1,200 = 700 + 500。题目已经给了借资产和贷负债，缺的就是 **贷记另一个资产账户 Cash $500**。
+
+**答案：A Credit an asset account for $500。**
+
+B 再贷一笔负债：现金付出去了，不是又欠一笔。  
+C/D 动 Capital：这不是业主投资，也不是提款。
+
+---
 
 ## 13  D  $530 debit
 
-Supplies 是资产，余额在借方。
+**题意：** 1 月 31 日物料余额 $780。2 月购入 $900，耗用 $1,150。2 月末物料账户余额应是多少。
+
+Supplies 是资产，余额在借方：
 
 \[
-780 + 900 - 1{,}150 = 530\ \text{debit}
+\begin{aligned}
+\text{期初} &\quad 780\ \text{Dr} \\
++\ \text{购入} &\quad 900\ \text{Dr} \\
+-\ \text{耗用} &\quad 1{,}150\ \text{Cr（从资产转出）} \\
+\hline
+\text{期末} &\quad 530\ \text{Dr}
+\end{aligned}
 \]
 
-$530 credit 把方向搞反了；$830 是少减了耗用。
+**答案：D $530 debit。**
 
-## 14  T — time period assumption
+B $530 credit 把方向搞反。  
+A $830 是算式写错（例如少减了耗用）。  
+C $1,030 像是 780+900−650 之类的中间错误。
 
-企业寿命可以人为切成月、季、年，才能定期出报表。这就是 time period（periodicity）assumption。
+---
+
+## 14  T
+
+**题意：** Time period assumption 说，企业的经济寿命可以被人为划分成若干会计期间。
+
+**判断：对。** 也叫 periodicity assumption。正因为可以切成月、季、年，才有“本月利润”“本年报表”。否则只能等企业关门才算一次总账。
+
+---
 
 ## 15  T
 
-预收（Unearned Revenue）先记负债。以后真正履约时做调整分录：
+**题意：** Unearned revenue 是一种预收，在服务实际提供时需要做调整分录。
+
+**判断：对。** 收到预收款时：
+
+```
+Dr  Cash
+    Cr  Unearned Revenue          ← 负债，还没赚到
+```
+
+以后履约（adjusting entry）：
 
 ```
 Dr  Unearned Revenue
-    Cr  Service/Ticket Revenue
+    Cr  Service Revenue           ← 这时才确认收入
 ```
 
-所以：它是 prepayment，履约时必须调整。对。
+所以两句话都对：它是 prepayment；履约时必须调整。
 
-## 16  A  Over the useful life of the building
+---
 
-办公楼是长期资产，按 **expense recognition / matching**：成本在使用寿命内以折旧摊完，不是付现当年一次进费用，也不是等赚满 $20m 才开始摊。
+## 16  A
 
-## 17  B  in which the performance obligation is satisfied
+**题意：** 公司花 $20 million 买办公楼，成本应在多长时间内摊销。
 
-收入确认原则（现行 IFRS/GAAP）：履约义务完成的那个会计期间确认收入。  
-不是收到现金的期间（那是现金制），也不是“赚之前/赚之后”。
+**答案：A Over the useful life of the building。**
 
-## 18  D  Dr Unearned Ticket Revenue / Cr Ticket Revenue $93,750
+这是 **expense recognition / matching**：长期资产通过折旧，在使用寿命内把成本转为费用。
 
-售季票时现金已收，记的是负债 Unearned Ticket Revenue $250,000。  
-9 月打了 3/8 场：
+排除：
+
+- B 等赚满 $20m 再摊 — 收入和资产寿命没有这种挂钩。
+- C 付现当年一次进费用 — 那是现金制，而且把资产当成费用。
+- D 第一年全部费用化 — 楼还能用很多年，会严重低估第一年利润。
+
+---
+
+## 17  B
+
+**题意：** 收入确认原则要求收入在哪一个会计期间确认。
+
+**答案：B in which the performance obligation is satisfied（履约义务完成的那一期）。**
+
+现行 IFRS 15 / GAAP：客户合同的履约义务完成时确认收入，与是否收到现金无关。
+
+A before it is earned — 还没履约就确认，太早。  
+C after it is earned — 故意推迟，也不对。  
+D in which it is collected — 那是现金制，不是收入确认原则。
+
+---
+
+## 18  D
+
+**题意：** Boneta 学院卖出 2027 赛季球票 $250,000，共 8 场（9–11 月）。9 月打了 3 场。9 月 30 日的调整分录是什么。
+
+售票时现金已经收过了，当时记的是负债 Unearned Ticket Revenue $250,000。9 月只是“把已打完的场次从负债转成收入”，不再动现金。
 
 \[
 250{,}000 \times \frac{3}{8} = 93{,}750
 \]
 
-调整分录把已赚部分从负债转到收入。  
-A 错在又借记 Cash（现金 9 月没有再收）；B 借贷方向反了；C 忽略了每月都要调整。
+```
+Dr  Unearned Ticket Revenue     93,750
+    Cr  Ticket Revenue                  93,750
+```
+
+**答案：D。**
+
+A 又借记 Cash：9 月没有再收钱。  
+B 借贷方向整个反了（那样会把收入冲掉、负债加回去）。  
+C 等到 11 月再调：违反 time period assumption，9 月报表会少计收入、多计负债。
+
+---
 
 ## 19  B
 
-上月末已计提应付工资 $34,000。本月发薪 $50,000，其中 $34,000 是还旧债，$16,000 才是本月新费用：
+**题意：** 月末 Salaries and Wages Payable 余额 $34,000。下月发薪 $50,000。记录发薪的分录是什么。
+
+上月已经做过计提：
+
+```
+Dr  Salaries and Wages Expense     34,000
+    Cr  Salaries and Wages Payable         34,000
+```
+
+所以这 $34,000 已经进过费用了，发薪时不能再费用化一次。$50,000 里：
+
+- $34,000 = 偿还负债
+- $16,000 = 本月新发生的工资费用
 
 ```
 Dr  Salaries and Wages Payable     34,000
@@ -169,23 +365,34 @@ Dr  Salaries and Wages Expense     16,000
     Cr  Cash                                50,000
 ```
 
-A 只付了差额、没清应付；C 把整笔 $50,000 当新费用、应付工资永远挂着；D 方向和账户都错。
+**答案：B。**
 
-## 20  D
-
-现金制：收到现金才记收入、付出现金才记费用。  
-这同时违反：
-
-- **revenue recognition**（履约时确认，不是收款时）
-- **expense recognition**（费用与相关收入配比，不是付款时）
-
-GAAP 要求权责发生制（accrual basis）。A/B/C 都在给现金制开脱，都不对。
+A 只记了 $16,000：应付工资清不掉。  
+C 把 $50,000 全记费用：上月那 $34,000 会重复进费用，应付永远挂账。  
+D 贷记应付而不是现金：钱已经付了，方向全错。
 
 ---
 
-## 考试时最快的判断法
+## 20  D
 
-1. **恒等式题（5、7、13）**：先写 \(A=L+OE\) 或账户加减，再对选项。
-2. **借记贷记（8–12）**：只记“左借右贷 + 正常余额”，费用/资产借方增加。
-3. **调整分录（15–19）**：先问现金是否早就进出了。预收→先负债后转收入；预提工资→先应付后付现时冲应付。
-4. **原则题（1、4、14、16、17、20）**：relevance = 能改变决策；收入看履约；费用看使用寿命/配比；现金制不是 GAAP。
+**题意：** 哪一句是对的。
+
+**答案：D** The use of the cash basis of accounting violates both the revenue recognition and expense recognition principles.
+
+| | 权责发生制（GAAP） | 现金制 |
+|--|-------------------|--------|
+| 收入 | 履约时确认 | 收到现金时确认 → 违反 revenue recognition |
+| 费用 | 与相关收入配比 / 在受益期确认 | 付出现金时确认 → 违反 expense recognition |
+
+A 错：即使用得再一贯，现金制也不是 GAAP（上市公司不行；小微企业另说，但本题考的是原则）。  
+B 错：现金制并不是“更客观”；应收未收同样可以可靠计量。  
+C 错：管理层道德替代不了确认原则。
+
+---
+
+## 考试时怎么想（20 秒决策）
+
+1. 原则题：先问“这是哪一条 assumption / principle”，再套定义。  
+2. 恒等式：\(\Delta A = \Delta L + \Delta OE\)。  
+3. 借记贷记：左借右贷；费用和资产增加在借方。  
+4. 调整分录：先问现金是否早就进出。预收 → 冲负债记收入；预提工资 → 发薪时先冲应付。
