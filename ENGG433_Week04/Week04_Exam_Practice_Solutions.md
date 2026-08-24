@@ -12,9 +12,13 @@
 | 4 | **B** | 9 | **F** | 14 | **T** | 19 | **B** |
 | 5 | **C** | 10 | **B** | 15 | **T** | 20 | **D** |
 
+课件对照（第 1–4 周讲课）：Q1–Q12 在 **Week 1 PPT**；Q13–Q20 在 **Week 2 PPT**。Week 3 只复习权责/现金，Week 4 讲课是管理会计，这 20 题不在那里。完整表见 `Week04_Exam_Practice_PPT_Map.md`。
+
 ---
 
 ## 1  T
+
+**课件：** Week 1 PPT `Lecture 1 - Accounting in action and Recording process_2026.pdf` → 知识点 1「会计在干什么」入账条件（能用钱衡量 / 货币单位假设）。
 
 **题意：** 能用美元和美分计量的交易，才会被记入财务信息系统。
 
@@ -25,6 +29,8 @@
 ---
 
 ## 2  F
+
+**课件：** Week 1 PPT 知识点 1 之后「谁在用这些会计信息」。Week 4 财务会计 vs 管理会计对照表会再出现，但本题用的是 Week 1 原定义：财务信息内部、外部都用。
 
 **题意：** 会计信息只被对企业有财务利益的外部使用者使用。
 
@@ -40,6 +46,8 @@
 ---
 
 ## 3  C
+
+**课件：** Week 1 PPT 开场三步：识别（Identification）→ 记录（Recording）→ 沟通（Communication）。
 
 **题意：** 会计过程的正确顺序是什么。
 
@@ -64,6 +72,8 @@ A 把 communication 插到 recording 前面：还没记账就出报表，不可�
 
 ## 4  B
 
+**课件：** Week 1 PPT 笔记「相关性与忠实反映」（理解即可）；定义在 Week 2 PPT 第 10 块「报表质量概念」展开：Relevance = 会不会改变决策。不要用 Week 4「相关信息 = 面向未来且方案有差别」。
+
 **题意：** 有能力改变一项决策的财务信息，叫做什么。
 
 **答案：B relevant（相关性）。** 教材定义：information is relevant if it is capable of making a difference in a decision。相关信息通常还有预测价值或反馈价值。
@@ -77,6 +87,8 @@ A 把 communication 插到 recording 前面：还没记账就出报表，不可�
 ---
 
 ## 5  C
+
+**课件：** Week 1 PPT 知识点 2「会计等式 ALOE」：Assets = Liabilities + Owner’s Equity，必须永远平衡。
 
 **题意：** 某期间负债减少 $30,000，业主权益减少 $15,000，资产怎么变。
 
@@ -100,6 +112,8 @@ A 把 communication 插到 recording 前面：还没记账就出报表，不可�
 
 ## 6  D
 
+**课件：** Week 1 PPT 知识点 3：费用使 Owner’s Equity 下降。具体分录在 Week 2 PPT 第 4 块预付费用：`Dr Supplies Expense / Cr Supplies`（费用 = 已用掉的部分）。
+
 **题意：** 已经买来的物料在经营中被用掉，会发生什么。
 
 耗用 supplies 的分录：
@@ -121,6 +135,8 @@ C 权益增加：费用会减少权益，不是增加。
 ---
 
 ## 7  D  $486,000
+
+**课件：** Week 1 PPT 知识点 3「业主权益怎么变大、变小」：期末 OE = 期初 + 投入 + 收入 − 费用 − 提款。
 
 **题意：** Letty 期初权益 $105,000，本年追加投资 $147,000，费用 $420,000，提款 $28,000，期末权益 $290,000。求本年收入。
 
@@ -155,6 +171,8 @@ R &= 486{,}000
 
 ## 8  F
 
+**课件：** Week 1 PPT 知识点 6「Debit / Credit」：Debit = 左边，Credit = 右边；Debit ≠ 增加。
+
 **题意：** 借记某个账户，永远表示该账户增加。
 
 **判断：错。** Debit 只表示“记在账户左边”，增还是减取决于账户类型：
@@ -174,6 +192,8 @@ R &= 486{,}000
 
 ## 9  F
 
+**课件：** Week 1 PPT 知识点 7「Journal → Ledger → Trial Balance」：Chart of accounts 是编号目录（1xx 资产…）；Ledger 才是真正记发生额的分类账。
+
 **题意：** Chart of accounts 是会计系统里一种特殊的分类账。
 
 **判断：错。**
@@ -188,6 +208,8 @@ Chart of accounts 不是 ledger，只是给账户编号用的表。
 
 ## 10  B
 
+**课件：** Week 1 PPT 知识点 6：T 字账左边是 debit side，右边是 credit side。
+
 **题意：** 账户的左边是什么。
 
 **答案：B the debit side。** 这是定义，与有没有余额、账户叫什么名字无关。右边永远是 credit side。
@@ -197,6 +219,8 @@ A blank、C the balance、D a description 都不对：余额可能在左也可�
 ---
 
 ## 11  D
+
+**课件：** Week 1 PPT 知识点 6「正常余额」：费用、资产、提款在借方；负债、资本、收入在贷方。
 
 **题意：** 熟悉正常余额，能帮你发现哪一项记账错误。
 
@@ -216,6 +240,8 @@ A blank、C the balance、D a description 都不对：余额可能在左也可�
 ---
 
 ## 12  A
+
+**课件：** Week 1 PPT 知识点 7 复合分录（compound entry）。课堂原例是卡车 `$14,000`：付现 `$8,000`、赊 `$6,000`。本题同一形状，只是资产换成 Supplies。
 
 **题意：** Madrid 买物料 $1,200，付现 $500，余款 30 天内付。分录已经有：借记资产 $1,200、贷记负债 $700。怎样补完。
 
@@ -237,6 +263,8 @@ C/D 动 Capital：这不是业主投资，也不是提款。
 ---
 
 ## 13  D  $530 debit
+
+**课件：** Week 2 PPT `Week2 - Adjusting the Accounts...` 第 4 块预付费用。公式：期初 + 新买 − 耗用 = 期末。Pioneer：买 $2,500、盘点剩 $1,000、费用 $1,500。老师强调「费用 = 已用掉的部分，不是剩下的」。
 
 **题意：** 1 月 31 日物料余额 $780。2 月购入 $900，耗用 $1,150。2 月末物料账户余额应是多少。
 
@@ -262,6 +290,8 @@ C $1,030 像是 780+900−650 之类的中间错误。
 
 ## 14  T
 
+**课件：** Week 2 PPT 第 1 块「为什么要切时间」：Time Period Assumption（会计分期假设）。澳洲财年常为 7 月 1 日–6 月 30 日。
+
 **题意：** Time period assumption 说，企业的经济寿命可以被人为划分成若干会计期间。
 
 **判断：对。** 也叫 periodicity assumption。正因为可以切成月、季、年，才有“本月利润”“本年报表”。否则只能等企业关门才算一次总账。
@@ -269,6 +299,8 @@ C $1,030 像是 780+900−650 之类的中间错误。
 ---
 
 ## 15  T
+
+**课件：** Week 2 PPT 第 6 块「预收收入 Unearned Revenues」。现金先到 → 先记负债；履约再 `Dr Unearned Service Revenue / Cr Service Revenue`。课堂：高尔夫年卡、Pioneer 预收 Knox $1,200。
 
 **题意：** Unearned revenue 是一种预收，在服务实际提供时需要做调整分录。
 
@@ -292,6 +324,8 @@ Dr  Unearned Revenue
 
 ## 16  A
 
+**课件：** Week 2 PPT 第 2 块费用确认/配比（let the expenses follow the revenues）+ 第 5 块「折旧是分摊（allocation），不是估值」。楼记历史成本，按使用寿命记 Depreciation Expense / Accumulated Depreciation。
+
 **题意：** 公司花 $20 million 买办公楼，成本应在多长时间内摊销。
 
 **答案：A Over the useful life of the building。**
@@ -308,6 +342,8 @@ Dr  Unearned Revenue
 
 ## 17  B
 
+**课件：** Week 2 PPT 第 2 块 Revenue Recognition Principle：服务做完 / 履约义务完成时确认，不是收到现金时。Week 3 开头会用「revenues when services are performed」带出现金流量表，但定义在 Week 2。
+
 **题意：** 收入确认原则要求收入在哪一个会计期间确认。
 
 **答案：B in which the performance obligation is satisfied（履约义务完成的那一期）。**
@@ -321,6 +357,8 @@ D in which it is collected — 那是现金制，不是收入确认原则。
 ---
 
 ## 18  D
+
+**课件：** Week 2 PPT 第 6 块 Unearned Revenues。Pioneer：10 月 2 日预收 $1,200，本月已做 $400 → `Dr Unearned 400 / Cr Service Revenue 400`。本题季票 3/8 场是同一模板。
 
 **题意：** Boneta 学院卖出 2027 赛季球票 $250,000，共 8 场（9–11 月）。9 月打了 3 场。9 月 30 日的调整分录是什么。
 
@@ -344,6 +382,8 @@ C 等到 11 月再调：违反 time period assumption，9 月报表会少计收�
 ---
 
 ## 19  B
+
+**课件：** Week 2 PPT 第 8 块应计费用。计提：`Dr Salaries Expense / Cr Salaries Payable`。以后发薪：`Dr Payable / Cr Cash`，若还含本月新工资再借记 Expense。Pioneer：10 月 31 日计提 3 天 $1,200。
 
 **题意：** 月末 Salaries and Wages Payable 余额 $34,000。下月发薪 $50,000。记录发薪的分录是什么。
 
@@ -374,6 +414,8 @@ D 贷记应付而不是现金：钱已经付了，方向全错。
 ---
 
 ## 20  D
+
+**课件：** Week 2 PPT 第 2 块「总开关」权责发生制 vs 收付实现制：现金制不是 GAAP，同时违反收入确认和费用确认。Week 3 讲课开头用同一对比引出现金流量表，不再重新讲原则。
 
 **题意：** 哪一句是对的。
 
