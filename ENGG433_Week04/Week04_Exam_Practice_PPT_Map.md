@@ -1,81 +1,105 @@
-# Exam Week 4 Practice — 每题对应第 1–4 周 PPT
+# Exam Week 4 Practice — 每题对应 PPT 的具体页
 
-这套卷标题是 Week 4 Practice，考的却是 **第 1–2 周财务会计**（Weygandt 第 1–3 章）。  
+这套卷标题是 Week 4 Practice，考的是 **第 1–2 周财务会计**（Weygandt 第 1–3 章）。  
 第 3 周只在开头复习权责/现金；第 4 周讲课已经切到 **管理会计**，这 20 题基本不在 Week 4 课件里。
+
+## 怎么对到「具体哪一页」
+
+Moodle 上的 2026 课件是 Wiley 幻灯片改编。页码印在**每一页角落**，格式是 `章-页`：
+
+| 你看到的页脚 | 意思 |
+|--------------|------|
+| `1-5` | 第 1 章第 5 页 |
+| `2-2` | 第 2 章第 2 页 |
+| `3-4` | 第 3 章第 4 页 |
+
+**不要用 PDF 阅读器左上角的 1、2、3。**  
+Week 1 把第 1 章和第 2 章拼在同一个 PDF 里，阅读器第 40 页往往已经是第 2 章，不是 `1-40`。  
+老师如果加了封面、课号、Learning outcomes，阅读器页码还会再往后错 1～几页。
+
+找法：打开对应文件 → `Ctrl+F` 搜下面表格里的英文标题 → 再看那一页角落的 `1-5` / `2-2` / `3-4`。
+
+本表页脚按 **Weygandt Accounting Principles** 标准课件（Ch1 约 11e，Ch2 约 12e，Ch3 完整版）。你们 2026 文件名如下；若某一页差 1～2 页，以页脚和标题为准，不要死盯阅读器页码。
 
 | 周 | PPT 文件 | 教材 | 这套卷用不用 |
 |----|----------|------|----------------|
 | **Week 1** | `Lecture 1 - Accounting in action and Recording process_2026.pdf` | Ch 1 Accounting in Action + Ch 2 Recording Process | Q1–Q12 主阵地 |
-| **Week 2** | `Week2 - Adjusting the Accounts and Completion of the Accounting Cycle_2026.pdf` | Ch 3 Adjusting the Accounts | Q13–Q20 主阵地；Q6 的“耗用物料”也在这里写成分录 |
-| **Week 3** | `Week3 -（1-70）.pdf` + `Week3 -（71-130）.pdf` | Ch 17 现金流量表 + Ch 18 报表分析 | 只复习 Q20 的权责 vs 现金，为现金流量表铺垫 |
-| **Week 4 讲课** | `Week4 - The Role of Accounting in Decision Making, Cost concepts, Behaviour and Estimation_2026.pdf` | 管理会计 Ch 1–2 | **不考这 20 题**（相关成本、成本性态、回归） |
+| **Week 2** | `Week2 - Adjusting the Accounts and Completion of the Accounting Cycle_2026.pdf` | Ch 3 Adjusting the Accounts（后半还有完成会计循环） | Q13–Q20 主阵地；Q6 的「耗用物料」也在这里写成分录 |
+| **Week 3** | `Week3 -（1-70）.pdf` + `Week3 -（71-130）.pdf` | Ch 17 现金流量表 + Ch 18 报表分析 | 只复习 Q20 的权责 vs 现金。文件名里的 1–70 就是这份 PDF 的页 |
+| **Week 4 讲课** | `Week4 - The Role of Accounting in Decision Making, Cost concepts, Behaviour and Estimation_2026.pdf`（67 页） | 管理会计 | **不考这 20 题** |
 | **Week 4 tutorial** | 现金流量 / 垂直分析 / 比率 | E17.2, E17.12, E18.4, E18.9 | **不是这套卷** |
 
 ---
 
-## 速查表
+## 20 题对照（文件 + 页脚 + 搜索标题）
 
-| 题 | 答案 | 知识点 | 周 | PPT 里的位置（按课堂讲解块，课件没有印 slide 号） |
-|----|------|--------|----|--------------------------------------------------|
-| 1 | T | 货币单位假设 | **W1** | 知识点 1「会计在干什么」：入账条件「能用钱衡量」；PPT 笔记里的「货币单位原则」 |
-| 2 | F | 内部 + 外部使用者 | **W1** | 知识点 1 后面「谁在用这些会计信息」；财务会计 vs 管理会计。W4 对照表会再出现，但本题考的是 Ch 1 原定义 |
-| 3 | C | identification → recording → communication | **W1** | 知识点 1 开场三步：识别 / 记录 / 沟通 |
-| 4 | B | Relevance | **W1 + W2** | W1 PPT「相关性与忠实反映」（理解即可）；W2 第 10 块「报表质量概念」：Relevance = 会不会改变决策 |
-| 5 | C | 会计等式 ΔA = ΔL + ΔOE | **W1** | 知识点 2「会计等式 ALOE」 |
-| 6 | D | 耗用物料 → 费用↑ → 权益↓ | **W1 + W2** | W1 知识点 3：费用使 OE↓；W2 第 4 块预付费用：`Dr Supplies Expense / Cr Supplies` |
-| 7 | D | 权益滚动求收入 | **W1** | 知识点 3「业主权益怎么变大、变小」：期末 = 期初 + 投入 + 收入 − 费用 − 提款 |
-| 8 | F | Debit ≠ 永远增加 | **W1** | 知识点 6「Debit / Credit」：Debit = 左边，不是增加 |
-| 9 | F | Chart of accounts ≠ ledger | **W1** | 知识点 7「Journal → Ledger → Trial Balance」：Chart = 编号目录；Ledger = 真正的账户 |
-| 10 | B | 账户左边 = debit | **W1** | 知识点 6：T 字账左边 Debit、右边 Credit |
-| 11 | D | 费用出现贷方余额是错账 | **W1** | 知识点 6「正常余额」：费用正常在借方 |
-| 12 | A | 复合分录：物料现付+赊购 | **W1** | 知识点 7 复合分录（compound entry）；课堂卡车例 `$14,000 / 现金 8,000 / 赊 6,000` 同一形状 |
-| 13 | D | 物料期末余额 | **W2** | 第 4 块预付费用：期初 + 新买 − 耗用 = 期末；Pioneer：买 2,500、剩 1,000、费用 1,500 |
-| 14 | T | Time period assumption | **W2** | 第 1 块「为什么要切时间」：Time Period Assumption / 会计分期假设 |
-| 15 | T | 预收收入要调整 | **W2** | 第 6 块「预收收入 Unearned Revenues」：履约时 `Dr Unearned / Cr Revenue` |
-| 16 | A | 楼按使用寿命折旧 | **W2** | 第 2 块费用确认/配比 + 第 5 块「折旧是分摊不是估值」 |
-| 17 | B | 履约时确认收入 | **W2** | 第 2 块 Revenue Recognition Principle：服务做完 / performance obligation 完成时确认 |
-| 18 | D | 季票 3/8 转收入 | **W2** | 第 6 块 Unearned：Pioneer 预收 Knox $1,200、本月赚 $400。季票 = 同一模板 |
-| 19 | B | 发薪：先冲应付再记新费用 | **W2** | 第 8 块应计费用：以后付款 `Dr Payable (+ 本月新 Expense) / Cr Cash`，不能整笔再进费用 |
-| 20 | D | 现金制违反两条确认原则 | **W2**（W3 只复习） | W2 第 2 块「总开关」权责 vs 现金；W3 开头用同一对比引出现金流量表 |
+| 题 | 答案 | 打开哪个文件 | 页脚（印在角落） | Ctrl+F 搜这个标题 | 页上讲什么 |
+|----|------|--------------|------------------|-------------------|------------|
+| 1 | T | Week 1 PDF | **`1-17`** | `Monetary Unit Assumption` | 只能入账「能用钱计量」的事项 |
+| 2 | F | Week 1 PDF | **`1-6`** 内部、**`1-8`** 外部 | `Who Uses Accounting Data` / `Internal Users` / `External Users` | 内部经理 + 外部投资人/银行都用 |
+| 3 | C | Week 1 PDF | **`1-4`** 三步文字、**`1-5`** 流程图 | `Three Activities` / `What is Accounting?` | identification → recording → communication |
+| 4 | B | Week 1 PDF；Week 2 后半再展开 | **`1-15`**；Week 2 搜标题 | `Relevance and Faithful Representation` 或 `Qualitative Characteristics` | Relevance = 能改变决策。**不要**用 Week 4 的「相关成本」 |
+| 5 | C | Week 1 PDF | **`1-22`** | `The Basic Accounting Equation` | Assets = Liabilities + Owner’s Equity |
+| 6 | D | Week 1 PDF + Week 2 PDF | W1 **`1-27`**；W2 预付费用那几页 | `Decreases in Owner’s Equity`；`Prepaid Expenses` / `Supplies` | 费用使 OE↓；分录 `Dr Supplies Expense / Cr Supplies` |
+| 7 | D | Week 1 PDF | **`1-25`–`1-27`** | `Owner’s Equity` / `Investments` / `Drawings` | 期末 OE = 期初 + 投入 + 收入 − 费用 − 提款 |
+| 8 | F | Week 1 PDF（后半 Ch 2） | **`2-2`** | `Debit = “Left”` / `The Account` | Debit = 左边，不是「增加」 |
+| 9 | F | Week 1 PDF（后半 Ch 2） | **`2-27`** Chart；**`2-22`** Ledger | `Chart of Accounts`；`The Ledger` | Chart 是编号目录，不是分类账 |
+| 10 | B | Week 1 PDF（后半 Ch 2） | **`2-2`** | `Debit = “Left”` | T 字账左边 = debit side |
+| 11 | D | Week 1 PDF（后半 Ch 2） | **`2-6`** 资产/负债、**`2-8`** 收入/费用 | `Normal Balance` / `Debits and Credits` | 费用正常在借方；贷方余额是错账 |
+| 12 | A | Week 1 PDF（后半 Ch 2） | **`2-18`** | `Compound journal entry` | 一借两贷：物料 + 现金 + 应付 |
+| 13 | D | Week 2 PDF | 完整版约 **`3-19`–`3-21`**；精简版 **`3-11`–`3-14`** | `Prepaid Expenses` + `Pioneer` + `Supplies` $2,500 / $1,000 | 期末 = 期初 + 新买 − 耗用 |
+| 14 | T | Week 2 PDF | 完整版约 **`3-5`**；精简版 **`3-2`** | `Time Period Assumption` / `Periodicity` | 企业寿命可切成月/季/年 |
+| 15 | T | Week 2 PDF | 完整版约 **`3-28`–`3-32`**；精简版 **`3-17`–`3-19`** | `Unearned Revenues` / `Knox` $1,200 | 预收是负债；履约时才转收入 |
+| 16 | A | Week 2 PDF | 完整版约 **`3-24`–`3-27`** | `Depreciation` / `useful life` / `Matching` | 楼按使用寿命分摊，不是估值 |
+| 17 | B | Week 2 PDF | 完整版约 **`3-9`**；精简版 **`3-5`** | `Revenue Recognition Principle` / `performance obligation` | 履约完成的那一期确认收入 |
+| 18 | D | Week 2 PDF | 同 Q15：**`3-28`–`3-32`**（精简 **`3-17`–`3-19`**） | `Unearned` + Pioneer Knox 本月赚 $400 | 季票 3/8 = 同一模板 |
+| 19 | B | Week 2 PDF | 完整版约 **`3-39`–`3-42`** | `Accrued Expenses` / `salaries` | 发薪：先冲 Payable，新工资再进 Expense |
+| 20 | D | Week 2 PDF；Week 3 只复习 | W2 **`3-7`–`3-8`**（精简 **`3-4`**）；W3 `（1-70）.pdf` **最前面几页** | `Accrual- vs. Cash-Basis Accounting` | 现金制同时违反收入确认和费用确认 |
+
+Ch 3 有两个常见编号：完整课堂版（约 8e/全套，页脚偏大）和精简 13e（约 32 页，页脚偏小）。你们 Week 2 文件名带 *Completion of the Accounting Cycle*，更接近**完整版**。先 `Ctrl+F` 标题，再看那一页自己的页脚。
 
 ---
 
-## 按周复习路线（对着 PPT 翻）
+## 按周翻 PPT（带着页脚走）
 
-### 先翻 Week 1 PPT（Q1–Q12）
+### Week 1 PDF — 先翻第 1 章页脚 `1-x`
 
-1. 开场三步 → **Q3**  
-2. 谁用会计信息 → **Q2**  
-3. 货币单位 / 入账条件 → **Q1**  
-4. 「相关性与忠实反映」一带而过 → **Q4**（定义要到 Week 2 第 10 块才展开）  
-5. ALOE 等式 → **Q5**  
-6. 投入 / 收入 / 费用 / 提款 → **Q6、Q7**  
-7. Debit = 左、正常余额 → **Q8、Q10、Q11**  
-8. Chart vs Ledger、复合分录 → **Q9、Q12**
+1. `1-4` / `1-5` 三步 → **Q3**  
+2. `1-6` / `1-8` 谁用会计信息 → **Q2**  
+3. `1-17` 货币单位 → **Q1**  
+4. `1-15` 相关性与忠实反映 → **Q4**  
+5. `1-22` ALOE → **Q5**  
+6. `1-25`–`1-27` 投入/收入/费用/提款 → **Q6、Q7**
 
-### 再翻 Week 2 PPT（Q13–Q20）
+### 同一文件后半 — 第 2 章页脚 `2-x`
 
-1. 会计分期假设 → **Q14**  
-2. 权责 vs 现金 + 收入确认 + 配比 → **Q16、Q17、Q20**  
-3. 预付物料（已用 vs 剩余）→ **Q6、Q13**  
-4. 折旧按寿命分摊 → **Q16**  
-5. 预收（高尔夫年卡 / Pioneer Knox）→ **Q15、Q18**  
-6. 应计工资：计提后再发薪 → **Q19**  
-7. 质量特征 Relevance → **Q4 补一句**
+7. `2-2` Debit = 左 → **Q8、Q10**  
+8. `2-6` / `2-8` 正常余额 → **Q11**  
+9. `2-18` 复合分录 → **Q12**  
+10. `2-22` Ledger、`2-27` Chart of accounts → **Q9**
+
+### Week 2 PDF — 页脚 `3-x`
+
+1. Time Period Assumption → **Q14**  
+2. Accrual vs Cash + Revenue Recognition + Matching/Depreciation → **Q16、Q17、Q20**  
+3. Prepaid / Supplies（Pioneer $2,500 剩 $1,000）→ **Q6、Q13**  
+4. Unearned（Knox $1,200 → $400）→ **Q15、Q18**  
+5. Accrued salaries → **Q19**  
+6. Qualitative characteristics / Relevance → **Q4 补一句**
 
 ### Week 3 / Week 4 不用为这套卷重看
 
-- Week 3：经营/投资/筹资分类、间接法、垂直分析、比率 —— 那是 **tutorial E17 / E18**，不是这 20 题。  
-- Week 4 讲课：相关成本、价值链、`TC = F + VQ`、高低点、回归 —— 管理会计，和这套卷无关。
+- Week 3：`Week3 -（1-70）.pdf` 开头几页会把 Week 2 的权责 vs 现金再讲一遍，然后才进入经营/投资/筹资。那是 **tutorial E17 / E18**，不是这 20 题（只有 Q20 能沾上复习）。  
+- Week 4 讲课 67 页：相关成本、价值链、`TC = F + VQ`、高低点、回归 —— 管理会计，和这套卷无关。
 
 ---
 
 ## 易混的两处
 
 **Q4 “relevant”**  
-- Week 1/2：财务信息质量特征 = 能改变决策。本题用这个。  
+- Week 1 `1-15` / Week 2 质量特征：财务信息质量 = 能改变决策。本题用这个。  
 - Week 4：管理会计“相关信息”= 面向未来 **且** 方案之间有差别。别用 Week 4 定义答这题。
 
 **Q2 “谁用会计信息”**  
-- Week 1：财务会计同时给内部经理和外部投资人/银行。本题选 F。  
-- Week 4：财务会计偏外部、管理会计偏内部。那是另一张对照表，不能理解成“财务信息只有外部用”。
+- Week 1 `1-6`、`1-8`：财务会计同时给内部和外部。本题选 F。  
+- Week 4：财务会计偏外部、管理会计偏内部。那是另一张对照表。
