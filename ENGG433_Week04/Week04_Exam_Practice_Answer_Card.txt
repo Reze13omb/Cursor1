@@ -1,0 +1,26 @@
+ENGG433/956  Exam Week 4 Practice  —  fill-in card
+====================================================
+1  T          11  D
+2  F          12  A
+3  C          13  D
+4  B          14  T
+5  C          15  T
+6  D          16  A
+7  D          17  B
+8  F          18  D
+9  F          19  B
+10 B          20  D
+====================================================
+PPT map  (from Weeks 1-4 lectures)
+  Q1-Q12  Week 1  Lecture 1 - Accounting in action and Recording process_2026.pdf
+  Q13-Q20 Week 2  Week2 - Adjusting the Accounts and Completion of the Accounting Cycle_2026.pdf
+  Week 3  only recaps cash vs accrual (Q20); cash-flow / ratios are NOT this exam
+  Week 4 lecture  management accounting — not these 20 questions
+====================================================
+Workings to remember
+  Q3   C = identification, recording, communication（不是 identification, communication, recording）
+  Q5   ΔA = ΔL + ΔOE = -30,000 - 15,000 = -45,000
+  Q7   290,000 = 105,000 + 147,000 + R - 420,000 - 28,000  →  R = 486,000
+  Q13  780 + 900 - 1,150 = 530 debit
+  Q18  250,000 × 3/8 = 93,750   Dr Unearned / Cr Revenue
+  Q19  Dr Payable 34,000 + Dr Expense 16,000 / Cr Cash 50,000
