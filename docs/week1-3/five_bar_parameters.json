@@ -1,0 +1,28 @@
+{
+  "d": 0.18,
+  "l1": 0.12,
+  "l2": 0.12,
+  "l3": 0.18,
+  "l4": 0.18,
+  "payload_kg": 0.3,
+  "m_crank_kg": 0.04,
+  "m_coupler_kg": 0.05,
+  "s_crank": 0.5,
+  "s_coupler": 0.5,
+  "shaft_d_mm": 8.0,
+  "link_w_mm": 20.0,
+  "link_t_mm": 8.0,
+  "sample_E_mm": [
+    0.0,
+    -180.0
+  ],
+  "sample_theta_L_deg": -125.66986453515187,
+  "sample_theta_R_deg": -54.33013546484812,
+  "midline_y_range_mm": [
+    -285.4887218045112,
+    -20.0
+  ],
+  "estimated_moving_mass_kg": 0.48,
+  "estimated_vertical_unbalance_N": 4.7088,
+  "angle_convention": "theta from +x CCW; phi = theta + 90 deg from downward vertical"
+}
