@@ -1,35 +1,25 @@
-# Revision notes (original draft → Q4-ready review)
+# Revision notes
 
-Target: a stable submission to a CAS Q4 / lower-Q3 sensors or mechatronics journal
-(`Applied Sciences`, `IEEE Access`, `Electronics`, `Advances in Mechanical Engineering`).
-This is not yet a `Sensors` (CAS Q3) submission unless the authors add more
-quantitative product-level tables after they check the latest datasheets.
+## Q3 target (this revision)
 
-## What was wrong in the original draft
+Primary journal: **Sensors (MDPI)**, CAS Q3 / JCR Q2.
+Secondary: **Machines**, **IEEE Sensors Journal** only if the authors add original metrology data.
 
-- About 7,500 words and only 26 references, with several citation–claim mismatches.
-- Broken English (missing subjects, leftover concatenated text such as `.ai-native sensors`).
-- Section 4.3 read as original research (“This study designs a UAV system…”).
-- Tables were qualitative only; no cited operating envelopes.
-- The “hardware-centric gap” was overstated relative to existing ToF / LiDAR / SLAM surveys.
+What was added on top of the Q4 draft:
 
-## What this revision changes
+- Structured abstract (Background / Methods / Results / Conclusions) at about 200 words.
+- Highlights (5 bullets) and a separate graphical abstract (MDPI size).
+- Honest structured-narrative methods: databases, stems, inclusion/exclusion table. No fake PRISMA counts.
+- Device-level Table 3 from peer-reviewed Kinect / Azure Kinect / RealSense studies.
+- Selection flowchart (Figure 4), hardware-to-function figure (Figure 5), and a 10-point checklist (Section 4.5).
+- Calibration treated as its own subsection.
+- LiDAR-inertial odometry (LOAM / LIO-SAM / FAST-LIO2), neural SLAM, depth-completion networks, GraspNet / DenseFusion, bridge-inspection UAV papers, HRI/safety standards.
+- Bibliography expanded from 97 to ~140 cited items.
 
-- Rewrote the paper in plain academic English and removed leftover fragments.
-- Added a narrative-review method paragraph (honest: not PRISMA).
-- Positioned the paper as a system-level map, not a claim that no hardware surveys exist.
-- Expanded the bibliography to 90+ peer-reviewed items, auto-numbered by first use.
-- Added Table 1 with literature-backed range/error envelopes.
-- Replaced the invented UAV system with a literature synthesis and labelled Figure 3 as such.
-- Added three original schematic figures (operating envelopes, fusion stack, UAV pipeline).
-- Softened future-work language (event cameras, metalenses, quantum imaging are not BOM items).
-- Added CRediT-style author contributions, conflict-of-interest, and data-availability statements
-  required by most OA journals.
+## Still required of the authors before upload
 
-## What the authors still must do before upload
-
-1. Confirm author order, emails, and funder numbers.
-2. Run a paid English edit if the target journal is picky (`IEEE Access` is).
-3. Check the institution’s MDPI / OA reimbursement list.
-4. Convert citations to the journal’s required style in their template (the `.docx` is IEEE-like numbered).
-5. Do not invent extra “original experiments” in a review.
+1. Funding numbers and author-contribution CRediT codes in the Sensors template.
+2. Optional paid English edit (recommended for Sensors).
+3. Institutional check on MDPI reimbursement / warning lists.
+4. Do not convert this into a PRISMA paper unless you actually run a registered protocol.
+5. Graphical abstract file: `figures/graphical_abstract.png` (do not reuse a body figure).

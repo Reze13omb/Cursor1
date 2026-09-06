@@ -233,8 +233,77 @@ def fig3():
     plt.close(fig)
 
 
+def fig4_selection():
+    fig, ax = plt.subplots(figsize=(10.6, 5.4))
+    ax.set_xlim(0, 10.6)
+    ax.set_ylim(0, 5.4)
+    ax.axis("off")
+    ax.set_title("Sensor-family selection from the operating envelope", fontsize=11, pad=6, fontweight="bold")
+    rounded(ax, 3.7, 4.35, 3.2, 0.85, "Write range, lighting,\nsurface, mass, SIL", "#E0E7FF", fs=8, bold=True)
+    rounded(ax, 0.25, 2.55, 3.0, 1.2, "Standoff < 2 m and\nsub-mm to few-mm?", "#DBEAFE", fs=8, bold=True)
+    rounded(ax, 3.8, 2.55, 3.0, 1.2, "Indoor 0.3-5 m,\nsize/power limited?", "#D1FAE5", fs=8, bold=True)
+    rounded(ax, 7.35, 2.55, 3.0, 1.2, "Outdoor / >10 m\nor strong sunlight?", "#FDE68A", fs=8, bold=True)
+    rounded(ax, 0.25, 0.35, 3.0, 1.55, "Industrial structured light\nor laser triangulation\n+ RGB / F-T", "#DBEAFE", fs=8)
+    rounded(ax, 3.8, 0.35, 3.0, 1.55, "RGB-D: active stereo\nor iToF/dToF\n+ IMU / 2D safety LiDAR", "#D1FAE5", fs=8)
+    rounded(ax, 7.35, 0.35, 3.0, 1.55, "Solid-state or spinning\nLiDAR + camera + IMU\n(+ radar if weather)", "#FDE68A", fs=8)
+    arrow(ax, 5.3, 4.35, 1.75, 3.75)
+    arrow(ax, 5.3, 4.35, 5.3, 3.75)
+    arrow(ax, 5.3, 4.35, 8.85, 3.75)
+    arrow(ax, 1.75, 2.55, 1.75, 1.9)
+    arrow(ax, 5.3, 2.55, 5.3, 1.9)
+    arrow(ax, 8.85, 2.55, 8.85, 1.9)
+    fig.savefig(OUT / "fig4_selection_flowchart.png")
+    plt.close(fig)
+
+
+def fig5_hw_function():
+    fig, ax = plt.subplots(figsize=(10.6, 4.8))
+    ax.set_xlim(0, 10.6)
+    ax.set_ylim(0, 4.8)
+    ax.axis("off")
+    ax.set_title("What each hardware step made newly practical", fontsize=11, pad=6, fontweight="bold")
+    rows = [
+        (0.2, "#DBEAFE", "Consumer structured light\n(2010-)", "Dense indoor RGB-D mapping,\npose from depth, low-cost HRI labs"),
+        (2.85, "#D1FAE5", "Compact iToF / active stereo\n(2014-)", "Mobile heads, AR, indoor AMRs\nwithout a stereo bench"),
+        (5.5, "#FDE68A", "dToF SPAD / SSL\n(2018-)", "Outdoor metres, UAV standoff,\nwarehouse aisles"),
+        (8.15, "#E0E7FF", "Event + photonics\n(emerging)", "Microsecond reaction; chip-scale\nbeam steering (not yet BOM)"),
+    ]
+    for x, fc, t, d in rows:
+        rounded(ax, x, 2.55, 2.45, 1.9, t, fc, fs=8, bold=True)
+        rounded(ax, x, 0.25, 2.45, 2.0, d, "#F9FAFB", fs=8)
+        arrow(ax, x + 1.22, 2.55, x + 1.22, 2.25)
+    fig.savefig(OUT / "fig5_hardware_functions.png")
+    plt.close(fig)
+
+
+def graphical_abstract():
+    # MDPI GA: min 1100 x 560 (W x H). Export 2200 x 1120.
+    fig = plt.figure(figsize=(11.0, 5.6), dpi=200)
+    ax = fig.add_axes([0.03, 0.06, 0.94, 0.88])
+    ax.set_xlim(0, 11)
+    ax.set_ylim(0, 5.6)
+    ax.axis("off")
+    ax.text(5.5, 5.25, "Active depth vision  →  estimators  →  mechatronic function", ha="center", fontsize=13, fontweight="bold")
+    cols = [
+        (0.25, "#DBEAFE", "Sense", "Structured light\nToF (iToF / dToF)\nSolid-state LiDAR"),
+        (2.95, "#D1FAE5", "Estimate", "Completion & denoise\nVIO / RGB-D SLAM\nLiDAR-inertial odometry"),
+        (5.65, "#FDE68A", "Act", "Bin picking / metrology\nIndoor AMR / cobot cell\nUAV inspect & avoid"),
+        (8.35, "#E0E7FF", "Limit", "Sunlight & materials\nWatts, calibration\nIntegrity of fusion"),
+    ]
+    for x, fc, h, t in cols:
+        rounded(ax, x, 1.15, 2.4, 3.55, "", fc, fs=9)
+        ax.text(x + 1.2, 4.3, h, ha="center", fontsize=12, fontweight="bold")
+        ax.text(x + 1.2, 2.7, t, ha="center", va="center", fontsize=9)
+    ax.text(5.5, 0.45, "Choose by operating envelope, not by marketing generation", ha="center", fontsize=9, style="italic")
+    fig.savefig(OUT / "graphical_abstract.png")
+    plt.close(fig)
+
+
 if __name__ == "__main__":
     fig1()
     fig2()
     fig3()
-    print("wrote", list(OUT.glob("fig*.png")))
+    fig4_selection()
+    fig5_hw_function()
+    graphical_abstract()
+    print("wrote", sorted(p.name for p in OUT.glob("*.png")))
