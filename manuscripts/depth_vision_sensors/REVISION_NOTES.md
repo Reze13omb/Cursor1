@@ -14,7 +14,8 @@ What was added on top of the Q4 draft:
 - Selection flowchart (Figure 4), hardware-to-function figure (Figure 5), and a 10-point checklist (Section 4.5).
 - Calibration treated as its own subsection.
 - LiDAR-inertial odometry (LOAM / LIO-SAM / FAST-LIO2), neural SLAM, depth-completion networks, GraspNet / DenseFusion, bridge-inspection UAV papers, HRI/safety standards.
-- Bibliography expanded from 97 to ~140 cited items.
+- Bibliography expanded from 97 to ~170 cited items.
+- Added Table 8 (benchmarks and what they do not measure), ICP/LVI estimators, and more application numbers so the body sits in the Sensors review band rather than at the floor.
 
 ## Still required of the authors before upload
 
